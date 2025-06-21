@@ -1,10 +1,23 @@
 #!/bin/bash
 set -e
 
+# --- Set a specific, stable Flutter version ---
+FLUTTER_VERSION="3.19.6"
+
 # --- Install Flutter and dependencies ---
-git clone https://github.com/flutter/flutter.git --depth 1
-./flutter/bin/flutter --version
-./flutter/bin/flutter pub get
+echo "Cloning Flutter SDK version $FLUTTER_VERSION..."
+git clone https://github.com/flutter/flutter.git -b $FLUTTER_VERSION --depth 1
+
+# --- Set up the Flutter PATH ---
+export PATH="$PWD/flutter/bin:$PATH"
+
+# --- Verify Flutter installation ---
+flutter --version
+
+# --- Get project dependencies ---
+echo "Running 'flutter pub get'..."
+flutter pub get
 
 # --- Build the project ---
-./flutter/bin/flutter build web --release
+echo "Running 'flutter build web --release'..."
+flutter build web --release
