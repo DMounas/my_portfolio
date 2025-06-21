@@ -2,7 +2,7 @@
 set -e
 
 # --- Set a specific, stable Flutter version ---
-FLUTTER_VERSION="3.22.2"
+FLUTTER_VERSION="3.32.4"
 
 # --- Install Flutter and dependencies ---
 echo "Cloning Flutter SDK version $FLUTTER_VERSION..."
