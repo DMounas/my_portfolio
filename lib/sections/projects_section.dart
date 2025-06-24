@@ -14,21 +14,21 @@ class ProjectsSectionContent extends StatelessWidget {
         tagline: 'A voice-first conversational AI for mobile.',
         description: 'A sophisticated, cross-platform conversational AI assistant built with Flutter, leveraging Google\'s Gemini and Vertex AI APIs for real-time chat and generative image creation.',
         tags: ['Flutter', 'Gemini API', 'Google Cloud'],
-        githubUrl: '#',
+        githubUrl: 'https://github.com/DMounas/nova_ai',
       ),
       const Project(
         title: 'Weather App',
         tagline: 'Clean, modern weather forecasting.',
         description: 'A sleek weather application that provides real-time weather data, hourly forecasts, and a 7-day outlook using the OpenWeatherMap API.',
         tags: ['Flutter', 'REST API', 'UI/UX'],
-        githubUrl: '#',
+        githubUrl: 'https://github.com/DMounas/weather_app',
       ),
       const Project(
         title: 'Currency Converter App',
         tagline: 'Real-time currency conversion.',
         description: 'A practical utility app for converting between multiple currencies with up-to-date exchange rates, featuring a simple and efficient user interface.',
         tags: ['Flutter', 'API', 'Mobile'],
-        githubUrl: '#',
+        githubUrl: 'https://github.com/DMounas/currency_converter',
       ),
     ];
 
