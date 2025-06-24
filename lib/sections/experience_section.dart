@@ -29,7 +29,7 @@ class ExperienceSectionContent extends StatelessWidget {
               ),
               SizedBox(height: 15),
               Text(
-                "My experience comes from dedicated, hands-on work. I go beyond my coursework to build real projects, turning theory into practical skill. I am now actively seeking an internship to apply this passion and dedication to solve real-world industry problems.",
+                "As a sophomore in my B.Tech program, my primary focus is on building a robust technical skill set. My experience is currently being forged through dedicated academic learning and self-directed projects. I view each project not just as a line on my resume, but as an opportunity to dive deeper into concepts, overcome challenges, and learn from my mistakes. This process is fundamental to my growth as a future software developer, and the projects showcased in this portfolio are a testament to my commitment to continuous learning and improvement.",
                 textAlign: TextAlign.center,
                 style: TextStyle(color: Colors.white70, fontSize: 16, height: 1.5),
               ),

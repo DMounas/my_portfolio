@@ -7,8 +7,8 @@ class SkillsSectionContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final skills = [
-      'Flutter', 'Dart', 'Firebase', 'UI/UX Design', 'Git', 'Problem Solving',
-      'Python', 'C++', 'Java', 'REST APIs', 'Figma'
+      'Flutter', 'Dart', 'Firebase', 'UI/UX Design', 'Git',
+      'C', 'C++', 'Arduino IDE', 'IoT', 'REST APIs', 'Figma', 'OnSpace', 'MATLAB', 'Mission Planner'
     ];
 
     return Align(
